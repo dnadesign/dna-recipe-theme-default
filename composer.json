@@ -1,5 +1,5 @@
 {
-    "name": "dnadesign/dna-recipe-theme-default",
+    "name": "adrexia/dna-recipe-theme-default",
     "description": "DNA's default theme recipe",
     "type": "silverstripe-recipe",
     "keywords": ["silverstripe", "dna"],
