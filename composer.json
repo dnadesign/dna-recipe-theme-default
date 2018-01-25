@@ -1,0 +1,29 @@
+{
+    "name": "dnadesign/dna-recipe-theme-default",
+    "description": "DNA's default theme recipe",
+    "type": "silverstripe-recipe",
+    "keywords": ["silverstripe", "dna"],
+    "require": {
+        "php": ">=5.6.0",
+        "silverstripe/recipe-plugin": "^1",
+        "silverstripe/recipe-core": "^1",
+        "stevie-mayhew/silverstripe-svg": "^2.1",
+        "benmanu/silverstripe-styleguide": "^0.1"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "^5.7"
+    },
+    "extra": {
+        "project-files": [
+            "mysite/_config/*",
+            "mysite/css/*",
+            "mysite/styleguide/*",
+            "theme-default/*"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
