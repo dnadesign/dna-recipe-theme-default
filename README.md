@@ -1,4 +1,4 @@
-# DNA Recipe default theme
+# DNA Recipe default theme (Prototype)
 Recipe for the dna default theme. Includes:
 
 * [silverstripe-styleguide](https://github.com/benmanu/silverstripe-styleguide)
@@ -10,9 +10,22 @@ Provided by [silverstripe/recipe-core]:
 * config: Core config library
 * assets: Filesystem module
 
-This can be either added to an existing project or used as a project base for creating a framework-only install with a theme.
-It is intended to be used as part of the dna-recipe
+This can be either added to an existing project or used as a project base.
 
 ## Requirements
 Silverstripe 4. 
 
+## Install 
+To start a project with this recipe run: 
+
+`composer create-project adrexia/dna-recipe-theme-default ./testrecipe dev-master`
+
+to move the cms recipe dep to your own composer file in order to modify them use:
+
+`composer update-recipe silverstripe/recipe-cms`
+
+To add this recipe to an existing project:
+
+`composer require adrexia/dna-recipe-theme-default ./testrecipe dev-master` 
+
+and then run update-recipe as above if you wish to inline it. 
