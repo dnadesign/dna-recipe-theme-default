@@ -18,7 +18,7 @@ Silverstripe 4.
 ## Install 
 To start a project with this recipe run: 
 
-`composer create-project adrexia/dna-recipe-theme-default ./testrecipe dev-master`
+`composer create-project dnadesign/dna-recipe-theme-default ./testrecipe dev-master`
 
 to move the cms recipe dep to your own composer file in order to modify them use:
 
@@ -26,6 +26,6 @@ to move the cms recipe dep to your own composer file in order to modify them use
 
 To add this recipe to an existing project:
 
-`composer require adrexia/dna-recipe-theme-default ./testrecipe dev-master` 
+`composer require dnadesign/dna-recipe-theme-default ./testrecipe dev-master` 
 
 and then run update-recipe as above if you wish to inline it. 
