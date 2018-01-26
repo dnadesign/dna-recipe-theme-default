@@ -24,6 +24,7 @@
     "config": {
         "process-timeout": 600
     },
+    "license": "BSD-3-Clause",
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
