@@ -8,6 +8,7 @@ Before:
 # Caution: Indentation through two spaces, not tabs
 SilverStripe\View\SSViewer:
   themes:
+    - '$public'
     - '/theme-default/dist'
     - '$default'
 
