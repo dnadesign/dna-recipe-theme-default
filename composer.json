@@ -10,7 +10,7 @@
         "stevie-mayhew/silverstripe-svg": "^2.1",
         "benmanu/silverstripe-styleguide": "dev-feature/vendor"
     },
-      "repositories": [
+    "repositories": [
         {
             "type": "vcs",
             "url": "git@github.com:adrexia/silverstripe-styleguide.git"
@@ -24,7 +24,21 @@
             "mysite/_config/*",
             "mysite/css/*",
             "mysite/styleguide/*",
+            "public/*",
             "theme-default/*"
+        ],
+        "public-files": [
+            "assets/*",
+            "theme-default/dist/css/*",
+            "theme-default/dist/images/*",
+            "theme-default/dist/js/*",
+            "theme-default/dist/svg/*"
+        ],
+        "expose": [
+            "theme-default/dist/css",
+            "theme-default/dist/images",
+            "theme-default/dist/js",
+            "theme-default/dist/svg"
         ]
     },
     "config": {
