@@ -25,6 +25,19 @@
             "mysite/css/*",
             "mysite/styleguide/*",
             "theme-default/*"
+        ],
+        "public-files": [
+            "assets/*",
+            "theme-default/dist/css/*",
+            "theme-default/dist/images/*",
+            "theme-default/dist/js/*",
+            "theme-default/dist/svg/*"
+        ],
+        "expose": [
+            "theme-default/dist/css",
+            "theme-default/dist/images",
+            "theme-default/dist/js",
+            "theme-default/dist/svg"
         ]
     },
     "config": {
