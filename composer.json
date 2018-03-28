@@ -8,8 +8,14 @@
         "silverstripe/recipe-plugin": "^1",
         "silverstripe/recipe-cms": "^1",
         "stevie-mayhew/silverstripe-svg": "^2.1",
-        "benmanu/silverstripe-styleguide": "dev-feature/vendor as 0.1"
+        "benmanu/silverstripe-styleguide": "dev-feature/vendor"
     },
+      "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:adrexia/silverstripe-styleguide.git"
+        }
+    ],
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"
     },
